@@ -3,6 +3,107 @@
     padding: 0;
     box-sizing: border-box;
 }
-h2{
-    background-color: blue;
+:root{
+    --primary-color : rgb(12, 46, 138);
+    --secondary-color : rgb(80, 216, 175);
+}
+/* common css */
+.btn{
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    border: none;
+    color: white;
+    border-radius: 7px;
+    transition: all .3s;
+}
+.btn:hover{
+    background-color: gray;
+}
+.container{
+    padding: 20px 100px;
+}
+.section-title{
+    font-size: 50px;
+    color: var(--primary-color);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 60px;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+.logo span{
+    color: var(--secondary-color);
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(13, 110, 253);
+    font-weight: 500;
+}
+/* banner */
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(234, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content h1{
+    font-size: 80px;
+    color: var(--primary-color);
+}
+.banner-content span{
+    color: var(--secondary-color);
+}
+.banner-content p{
+    font-size: 18px;
+    color: var(--primary-color);
+    margin: 10px 0;
+}
+.banner-btn{
+    background-color: var(--primary-color);
+}
+.banner-btn:hover{
+    background-color: var(--primary-color);
+}
+
+/* about section */
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(45, 42, 42);
+}
+.about-content{
+    width: 50%;
+}
+.about-content p{
+    margin: 10px 0;
+}
+.about-img{
+    width: 50%;
+}
+.about img{
+    padding: 20px;
+    width: 100%;
 }

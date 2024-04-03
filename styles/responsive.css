@@ -1,0 +1,44 @@
+@media screen and (max-width: 700px) {
+  nav {
+    flex-direction: column;
+  }
+  .container{
+    padding: 10px 100px;
+}
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .banner {
+    height: 60vh;
+  }
+  .banner-content {
+    padding: 10px;
+  }
+  .banner-content h1 {
+    font-size: 40px;
+  }
+  .banner-content p {
+    font-size: 12px;
+  }
+  .btn {
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  /* about section */
+  .about{
+    flex-direction: column;
+    gap:40px;
+    font-size: 14px;
+}
+.about-content{
+    width: 100%;
+}
+.about-img{
+    width: 100%;
+}
+.section-title{
+    font-size: 30px;
+}
+}
