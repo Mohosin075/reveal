@@ -1,10 +1,19 @@
+@media screen and (max-width: 850px) {
+  .container {
+    padding: 10px 50px;
+  }
+  .services-card {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 700px) {
   nav {
     flex-direction: column;
   }
-  .container{
-    padding: 10px 100px;
-}
+  .container {
+    padding: 10px 40px;
+  }
   .menu {
     flex-direction: column;
     gap: 10px;
@@ -26,19 +35,32 @@
     font-size: 14px;
     border-radius: 5px;
   }
-  /* about section */
-  .about{
-    flex-direction: column;
-    gap:40px;
+  .section-desc {
     font-size: 14px;
-}
-.about-content{
+  }
+  /* about section */
+  .about {
+    flex-direction: column;
+    gap: 40px;
+    font-size: 14px;
+  }
+  .about-content {
     width: 100%;
-}
-.about-img{
+  }
+  .about-img {
     width: 100%;
-}
-.section-title{
+  }
+  .section-title {
     font-size: 30px;
-}
+  }
+  /* services */
+  .services-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services-card h2 {
+    font-size: 26px;
+  }
+  .services-card p {
+    font-size: 14px;
+  }
 }
