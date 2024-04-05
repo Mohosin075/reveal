@@ -28,6 +28,10 @@
     font-size: 50px;
     color: var(--primary-color);
 }
+.section-desc{
+    font-size: 18px;
+    color: rgb(85, 84, 84);
+}
 
 nav{
     display: flex;
@@ -106,4 +110,49 @@ nav{
 .about img{
     padding: 20px;
     width: 100%;
+}
+
+/* services */
+
+.services-cards{
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.services-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 10px 6px 15px 1px rgb(0 0 0 / 20%);
+}
+.icon{
+    font-size: 70px;
+    color: var(--secondary-color);
+}
+.services-card h2{
+    color: var(--secondary-color);
+    font-size: 36px;
+}
+.services-card p{
+    font-size: 18px;
+    color: rgb(85, 84, 84);
+}
+/* call to action */
+.call{
+    background-color: var(--primary-color);
+}
+.white{
+    color: white;
+}
+.call-btn{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.call-content p{
+    padding: 10px 0;
+}
+.call-btn:hover{
+    border: 1px solid transparent;
 }
